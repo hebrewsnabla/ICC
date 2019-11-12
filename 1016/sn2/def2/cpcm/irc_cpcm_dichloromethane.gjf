@@ -1,0 +1,15 @@
+%chk=ts_cpcm_dichloromethane_maugccpvtz.chk
+%nprocshared=24
+#p opt=(calcall,ts,noeigen) freq b3lyp scrf=(cpcm,solvent=dichloromethane)
+def2tzvp em=gd3bj
+
+Title Card Required
+
+-1 1
+ C                 -0.74408800   -0.00004900    0.00130400
+ H                 -0.76247800    0.92001700   -0.54601500
+ H                 -0.76255000   -0.93416400   -0.52168400
+ H                 -0.76253300    0.01399900    1.07181500
+ Cl                -3.13554400    0.00001400   -0.00035700
+ Br                 1.71589500    0.00000600   -0.00016800
+

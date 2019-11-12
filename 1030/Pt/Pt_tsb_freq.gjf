@@ -1,0 +1,17 @@
+%chk=Pt_tsb.chk
+%nprocshared=24
+#p opt=(calcfc,ts,noeigen) freq M062X/genecp geom=allcheck scrf=(smd,solvent=benzene) 
+
+Pt 0
+SDD
+****
+P C H 0
+6-31g*
+****
+
+Pt
+SDD
+
+
+
+

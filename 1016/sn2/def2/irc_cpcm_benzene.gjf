@@ -1,0 +1,15 @@
+%chk=ts_cpcm_benzene_maugccpvtz.chk
+%nprocshared=24
+#p opt=(calcall,ts,noeigen) freq b3lyp scrf=(cpcm,solvent=benzene)
+def2tzvp em=gd3bj
+
+Title Card Required
+
+-1 1
+ C                 -0.73224000   -0.00000100    0.00095500
+ H                 -0.76134200    0.89893900   -0.57906800
+ H                 -0.76131500   -0.95185700   -0.48740400
+ H                 -0.76127200    0.05292900    1.06950700
+ Cl                -3.13895900    0.00000000   -0.00026000
+ Br                 1.71541900    0.00000000   -0.00012400
+

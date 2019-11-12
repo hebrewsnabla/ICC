@@ -1,0 +1,8 @@
+%chk=Pt_preR.chk
+%nproc=24
+#p pbe1pbe/def2tzvp opt freq em=gd3bj geom=allcheck scrf=(smd,solvent=benzene)
+
+
+
+
+

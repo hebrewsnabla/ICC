@@ -1,0 +1,12 @@
+cpcm/ts_def2tzvp_scrf_cpcm_benzene.log:1832: Sum of electronic and thermal Free Energies=        -3074.465618
+cpcm/ts_def2tzvp_scrf_cpcm_benzene.log:2742: Sum of electronic and thermal Free Energies=        -3074.465618
+cpcm/ts_def2tzvp_scrf_cpcm_dichloromethane.log:2407: Sum of electronic and thermal Free Energies=        -3074.493386
+cpcm/ts_def2tzvp_scrf_cpcm_dichloromethane.log:3319: Sum of electronic and thermal Free Energies=        -3074.493386
+nosol/ts_def2tzvp.log:2777: Sum of electronic and thermal Free Energies=        -3074.418514
+nosol/ts_def2tzvp.log:3602: Sum of electronic and thermal Free Energies=        -3074.418514
+pcm/ts2_def2tzvp_scrf_pcm_benzene.log:8831: Sum of electronic and thermal Free Energies=        -3074.465489  // freq not conv
+pcm/ts_def2tzvp_scrf_pcm_dichloromethane.log:1891: Sum of electronic and thermal Free Energies=        -3074.493229
+pcm/ts_def2tzvp_scrf_pcm_dichloromethane.log:2826: Sum of electronic and thermal Free Energies=        -3074.493229
+smd/ts_def2tzvp_scrf_smd_benzene.log:3125: Sum of electronic and thermal Free Energies=        -3074.465513
+smd/ts_def2tzvp_scrf_smd_dichloromethane.log:17289: Sum of electronic and thermal Free Energies=        -3074.489632
+smd/ts_def2tzvp_scrf_smd_dichloromethane.log:18231: Sum of electronic and thermal Free Energies=        -3074.489632

@@ -1,0 +1,15 @@
+%chk=cpcm_benzene_P.chk
+%nprocshared=24
+#p irc=(calcfc,recalc=5,lqa,maxpoint=30) b3lyp scrf=(cpcm,solvent=benzene)
+def2tzvp em=gd3bj
+
+Title Card Required
+
+-1 1
+ C                 -1.61682500    0.00100700    0.00165200
+ H                 -1.27984100    0.86850600   -0.55105000
+ H                 -1.27948000   -0.91173300   -0.47232400
+ H                 -1.28281900    0.04655900    1.03022400
+ Cl                -3.44030300    0.00032900   -0.00144600
+ Br                 1.81931800   -0.00034100    0.00030200
+

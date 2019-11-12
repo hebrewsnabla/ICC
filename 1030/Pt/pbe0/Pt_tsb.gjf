@@ -1,0 +1,8 @@
+%chk=Pt_tsb.chk
+%nprocshared=24
+#p opt=(ts,calcfc,noeigen) pbe1pbe/def2tzvp em=gd3bj geom=allcheck scrf=(smd,solvent=benzene) 
+
+
+
+
+

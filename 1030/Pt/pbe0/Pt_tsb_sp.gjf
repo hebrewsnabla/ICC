@@ -1,0 +1,23 @@
+%oldchk=Pt_tsb.chk
+%chk=Pt_tsb_sp.chk
+%rwf=/share/home/wli/srwang/ICC/1030/Pt/pbe0/Pt_tsb_sp
+%mem=200gb
+%nprocshared=24
+#p dsdpbep86/genecp  geom=check scrf=(smd,solvent=benzene) 
+
+title
+
+0 1
+
+Pt 0
+def2qzvp
+****
+P C H 0
+def2tzvp
+****
+
+Pt
+def2qzvp
+
+
+

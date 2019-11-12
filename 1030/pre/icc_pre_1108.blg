@@ -1,0 +1,15 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'icc_pre_1108.blg'
+[62] biber-MSWIN32:315> INFO - === 
+[180] Biber.pm:371> INFO - Reading 'icc_pre_1108.bcf'
+[346] Biber.pm:889> INFO - Found 2 citekeys in bib section 0
+[368] Biber.pm:4093> INFO - Processing section 0
+[409] Biber.pm:4254> INFO - Looking for bibtex format file 'icc_pre_1108.bib' for section 0
+[422] bibtex.pm:1523> INFO - LaTeX decoding ...
+[439] bibtex.pm:1340> INFO - Found BibTeX data source 'icc_pre_1108.bib'
+[483] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[483] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[483] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[483] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[488] bbl.pm:636> INFO - Writing 'icc_pre_1108.bbl' with encoding 'UTF-8'
+[491] bbl.pm:739> INFO - Output to icc_pre_1108.bbl

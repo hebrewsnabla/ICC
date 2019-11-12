@@ -1,0 +1,10 @@
+%oldchk=Pt_tsb.chk
+%chk=Pt_ircb2.chk
+%mem=40gb
+%nprocshared=24
+#p irc=(calcfc,lqa,maxpoint=50,stepsize=15) pbe1pbe/def2tzvp em=gd3bj  geom=allcheck scrf=(smd,solvent=benzene) 
+
+
+
+
+

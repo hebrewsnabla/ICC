@@ -1,0 +1,8 @@
+%chk=Pt_tsb.chk
+%rwf=/home/wsr/ICC/1030/Pt/
+%nprocshared=12
+#p B2PLYPD3/def2TZVP geom=allcheck scrf=(smd,solvent=benzene) 
+
+
+
+

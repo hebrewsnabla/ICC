@@ -1,0 +1,7 @@
+%chk=Pt_P.chk
+%nprocshared=24
+#p opt freq pbe1pbe/def2tzvp em=gd3bj geom=allcheck scrf=(smd,solvent=benzene) 
+
+
+
+

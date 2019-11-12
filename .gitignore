@@ -1,0 +1,6 @@
+*.chk
+*.aux
+*.synctex.gz
+*.toc
+core.*
+

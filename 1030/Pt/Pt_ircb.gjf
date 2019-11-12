@@ -1,0 +1,17 @@
+%chk=Pt_tsb.chk
+%nprocshared=20
+#p irc=(calcfc,lqa,maxpoint=30) M062X/genecp geom=allcheck scrf=(smd,solvent=benzene) 
+
+Pt 0
+SDD
+****
+P C H 0
+6-31g*
+****
+
+Pt
+SDD
+
+
+
+

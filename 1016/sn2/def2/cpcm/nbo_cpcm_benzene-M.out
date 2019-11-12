@@ -1,0 +1,148 @@
+ Multiwfn -- A Multifunctional Wavefunction Analyzer (for Linux 64bit)
+ Version 3.5, release date: 2018-Apr-6
+ Project leader: Tian Lu (Beijing Kein Research Center for Natural Sciences)
+ Below paper *MUST BE CITED* if Multiwfn is utilized in your work:
+          Tian Lu, Feiwu Chen, J. Comput. Chem. 33, 580-592 (2012)
+ Multiwfn official website: http://sobereva.com/multiwfn
+ Multiwfn English forum: http://sobereva.com/wfnbbs
+ Multiwfn Chinese forum: http://bbs.keinsci.com/wfn
+ ( The number of threads:  4   Current date: 2019-10-19   Time: 05:19:42 )
+ 
+ Please wait...
+ Loading various information of the wavefunction
+ The highest angular moment basis functions is F
+ Loading basis-set definition...
+ Loading orbitals...
+ Converting basis function information to GTF information...
+ Generating overlap matrix...
+ Generating density matrix based on SCF orbitals...
+ 
+ Total/Alpha/Beta electrons:     62.0000     31.0000     31.0000
+ Net charge:    -1.00000      Expected multiplicity:    1
+ Atoms:      6,  Basis functions:    151,  GTFs:    258
+ Total energy: -3074.484734956844 Hartree,   Virial ratio:  2.00151947
+ This is a restricted single-determinant wavefunction
+ Orbitals from 1 to    31 are occupied
+ Title line of this file: Title Card Required
+
+ Loaded cpcm/ts_cpcm_benzene_maugccpvtz.fchk successfully!
+ Formula: H3 C1 Cl1 Br1 
+ Molecule weight:       130.39152
+ 
+                    ------------ Main function menu ------------
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point
+ 2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and atomic charges
+ 8 Orbital composition analysis
+ 9 Bond order analysis
+ 10 Plot Total/Partial/Overlap population density-of-states (DOS)
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and extended CDA (ECDA)
+ 17 Basin analysis
+ 18 Electron excitation analysis
+ 19 Orbital localization analysis
+ 20 Visual study of weak interaction
+ 100 Other functions (Part1)        200 Other functions (Part2)
+               ------------ Other functions (Part 1) ------------ 
+ 0 Return
+ 1 Draw scatter graph between two functions and generate their cube files
+ 2 Export .pdb/.xyz/.wfn/.wfx/.molden/.fch/.47 files or input file of QC codes
+ 3 Calculate molecular van der Waals Volume
+ 4 Integrate a function in whole space
+ 5 Show overlap integral between alpha and beta orbitals
+ 6 Monitor SCF convergence process of Gaussian
+ 7 Generate Gaussian input file with initial guess from converged wavefunction
+ 8 Generate Gaussian input file with initial guess from fragment wavefunctions
+ 9 Evaluate coordination number for all atoms
+ 11 Calculate overlap and centroid distance between two orbitals
+ 13 Calculate HOMA and Bird aromaticity index
+ 14 Calculate LOLIPOP (LOL Integrated Pi Over Plane)
+ 15 Calculate intermolecular orbital overlap
+ 18 Yoshizawa's electron transport route analysis
+ 19 Generate promolecular .wfn file from fragment wavefunctions
+ 20 Calculate Hellmann-Feynman forces
+ 21 Calculate properties based on geometry information for specific atoms
+ 22 Detect pi orbitals and set occupation numbers
+ 23 Fit function distribution to atomic value
+ 24 Obtain NICS_ZZ for non-planar system
+ 25 Calculate area and perimeter for a ring
+ 1 Output current structure to .pdb file
+ 2 Output current structure to .xyz file
+ 4 Output current wavefunction as .wfx file
+ 5 Output current wavefunction as .wfn file
+ 6 Output current wavefunction as Molden input file (.molden)
+ 7 Output current wavefunction as .fch file
+ 8 Output current wavefunction as .47 file
+ 10 Output current structure to Gaussian input file
+ 11 Output current structure to GAMESS-US input file
+ 12 Output current structure to ORCA input file
+ 13 Output current structure to NWChem input file
+ 14 Output current structure to MOPAC input file
+ 15 Output current structure to PSI input file
+ 16 Output current structure to MRCC input file
+ 17 Output current structure to CFOUR input file
+ 18 Output current structure to Molpro input file
+ 19 Output current structure to Dalton input file
+ 20 Output current structure to Molcas input file
+ Input the path, e.g. C:\ltwd.47
+ Exporting, please wait...
+ Note: If you want to write dipole moment matrix into .47 file so that you can use "DIPOLE" keyword in NBO, you should set "igenDbas" in settings.ini to 1 and reload input file, so that dipole moment matrix can be generated.
+ 
+ Exporting .47 file finished!
+ 
+               ------------ Other functions (Part 1) ------------ 
+ 0 Return
+ 1 Draw scatter graph between two functions and generate their cube files
+ 2 Export .pdb/.xyz/.wfn/.wfx/.molden/.fch/.47 files or input file of QC codes
+ 3 Calculate molecular van der Waals Volume
+ 4 Integrate a function in whole space
+ 5 Show overlap integral between alpha and beta orbitals
+ 6 Monitor SCF convergence process of Gaussian
+ 7 Generate Gaussian input file with initial guess from converged wavefunction
+ 8 Generate Gaussian input file with initial guess from fragment wavefunctions
+ 9 Evaluate coordination number for all atoms
+ 11 Calculate overlap and centroid distance between two orbitals
+ 13 Calculate HOMA and Bird aromaticity index
+ 14 Calculate LOLIPOP (LOL Integrated Pi Over Plane)
+ 15 Calculate intermolecular orbital overlap
+ 18 Yoshizawa's electron transport route analysis
+ 19 Generate promolecular .wfn file from fragment wavefunctions
+ 20 Calculate Hellmann-Feynman forces
+ 21 Calculate properties based on geometry information for specific atoms
+ 22 Detect pi orbitals and set occupation numbers
+ 23 Fit function distribution to atomic value
+ 24 Obtain NICS_ZZ for non-planar system
+ 25 Calculate area and perimeter for a ring
+ 
+                    ------------ Main function menu ------------
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point
+ 2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and atomic charges
+ 8 Orbital composition analysis
+ 9 Bond order analysis
+ 10 Plot Total/Partial/Overlap population density-of-states (DOS)
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and extended CDA (ECDA)
+ 17 Basin analysis
+ 18 Electron excitation analysis
+ 19 Orbital localization analysis
+ 20 Visual study of weak interaction
+ 100 Other functions (Part1)        200 Other functions (Part2)

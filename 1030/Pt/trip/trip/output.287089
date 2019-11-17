@@ -1,0 +1,55 @@
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000006303, rsp 00007ffced0b48d8, rbp 00007ffced0b4e50
+   rsi 000000000000000b, rdi 0000000000006303, r8  0000000000000020
+   r9  00007ffced0b3ff0, r10 00007ffced0b4360, r11 0000000000000206
+   r12 00007ffced0b4e98, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b081ee12630]
+  /lib64/libc.so.6(kill+0x7) [0x2b081f357647]
+  /share/home/wli/program/opt/Chem_soft/g16/l502.exe() [0x461a20]
+  /share/home/wli/program/opt/Chem_soft/g16/l502.exe() [0x482bc1]
+  /share/home/wli/program/opt/Chem_soft/g16/l502.exe() [0x4fb261]
+  /share/home/wli/program/opt/Chem_soft/g16/l502.exe() [0x4db1d9]
+  /share/home/wli/program/opt/Chem_soft/g16/l502.exe() [0x41036d]
+  /share/home/wli/program/opt/Chem_soft/g16/l502.exe() [0x4038e0]
+  /share/home/wli/program/opt/Chem_soft/g16/l502.exe() [0x40381d]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b081f343545]
+  /share/home/wli/program/opt/Chem_soft/g16/l502.exe(sched_setaffinity+0xa1) [0x403729]
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@c14n14>
+Subject: Job 287089: <g16 Pt_ts_trip.gjf> in cluster <njucluster> Exited
+
+Job <g16 Pt_ts_trip.gjf> was submitted from host <c01n01> by user <wli> in cluster <njucluster> at Tue Nov 12 22:45:54 2019
+Job was executed on host(s) <24*c14n14>, in queue <mpi>, as user <wli> in cluster <njucluster> at Tue Nov 12 22:45:55 2019
+</share/home/wli> was used as the home directory.
+</share/home/wli/srwang/ICC/1030/Pt/trip> was used as the working directory.
+Started at Tue Nov 12 22:45:55 2019
+Terminated at Wed Nov 13 02:17:30 2019
+Results reported at Wed Nov 13 02:17:30 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+g16 Pt_ts_trip.gjf
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   299659.38 sec.
+    Max Memory :                                 987 MB
+    Average Memory :                             760.26 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                28
+    Run time :                                   12694 sec.
+    Turnaround time :                            12696 sec.
+
+The output (if any) is above this job summary.
+

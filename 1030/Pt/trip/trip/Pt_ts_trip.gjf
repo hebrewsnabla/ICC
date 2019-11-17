@@ -1,0 +1,22 @@
+%oldchk=../pbe0/Pt_tsb.chk
+%chk=Pt_ts_trip.chk
+%nprocshared=24
+#p pbe1pbe/genecp opt=(ts,calcfc,noeigen) freq geom=check scrf=(smd,solvent=benzene) 
+
+title
+
+0 3
+
+Pt P 0
+def2tzvp
+****
+C H 0
+def2svp
+****
+
+Pt
+def2tzvp
+
+
+
+

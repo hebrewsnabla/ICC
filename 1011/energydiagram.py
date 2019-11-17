@@ -9,13 +9,19 @@ import matplotlib.pyplot as plt
 import sys
 import numpy as np
 
-rxn = 'cl.txt' 
+rxn = "e:/2019fall/ICC/1030/Pt/pbe0/Pt.txt"
 #rxn = sys.argv[1]
 
 kcal = True
+H2KCAL = 627.509
 s2s = 2.0
 width = 0.5
 
+def get_float(raw):
+    if '{' in raw:
+        raw = eval(raw[1:-1])
+        #print(raw)
+    return float(raw)
 
 with open(rxn,'r') as f:
     rxndata = f.read()
@@ -25,9 +31,9 @@ for item in rxndata.split('--'):
     if '#' not in item: continue
     item = item.split('\n')
     energies = item[2].split()
-    energies = np.array([float(i) for i in energies])
+    energies = np.array([get_float(i) for i in energies])
     energies -= energies[0]
-    if kcal: energies *= 627.509
+    if kcal: energies *= H2KCAL
     energies = [round(i,1) for i in energies]
     energies_tot.append(energies)
 energies_tot = np.hstack(energies_tot)
@@ -47,7 +53,7 @@ for item in rxndata.split('--'):
     if len(states)!=len(energies):
         print("numbers of states and energies do not match in %s" % legend)
         exit(-1)
-    energies = np.array([float(i) for i in energies])
+    energies = np.array([get_float(i) for i in energies])
     energies -= energies[0]
     if kcal: energies *= 627.509
     energies = [round(i,1) for i in energies]
@@ -77,5 +83,7 @@ for item in rxndata.split('--'):
 
 plt.ylim((energies_tot.min() - erange*0.3, energies_tot.max() + erange*0.3))
 plt.xticks([])
-plt.ylabel(r"$\Delta G_{298K}$(kcal/mol)")
-plt.legend(labels=legends,loc='best')
+plt.yticks(fontsize=15)
+plt.ylabel(r"$\Delta G_{298K}$(kcal/mol)", fontsize=15)
+plt.legend(labels=legends,loc='best',fontsize=15)
+plt.savefig(rxn[:-4]+".png",bbox_inches = 'tight')

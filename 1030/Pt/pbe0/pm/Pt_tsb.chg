@@ -1,0 +1,62 @@
+  Pt   -0.000009   -0.378523   -0.000028   -0.251392
+  P     2.160472    0.227398   -0.000412    0.188273
+  P    -2.160448    0.227397    0.000397    0.188270
+  C     2.681652    1.178556    1.464941   -0.137297
+  H     2.546778    0.567514    2.359662    0.044319
+  H     3.729375    1.485748    1.393041    0.037973
+  H     2.048638    2.062212    1.561913    0.043410
+  C     3.487132   -1.028139   -0.094977   -0.141336
+  H     3.363715   -1.611583   -1.010271    0.042578
+  H     4.484969   -0.579114   -0.088521    0.036870
+  H     3.396347   -1.710312    0.753477    0.042376
+  C     2.635707    1.340427   -1.363956   -0.137493
+  H     2.002445    2.228794   -1.337443    0.043018
+  H     3.686402    1.637772   -1.293366    0.037752
+  H     2.468242    0.835623   -2.317505    0.044297
+  C    -2.636142    1.338581    1.365292   -0.137492
+  H    -2.002852    2.226972    1.340211    0.043019
+  H    -3.686806    1.636050    1.294743    0.037753
+  H    -2.469021    0.832479    2.318214    0.044296
+  C    -3.487161   -1.028259    0.092780   -0.141339
+  H    -4.484994   -0.579221    0.086575    0.036869
+  H    -3.396078   -1.709288   -0.756562    0.042379
+  H    -3.364068   -1.612941    1.007328    0.042573
+  C    -2.681135    1.180565   -1.463819   -0.137298
+  H    -2.545757    0.570849   -2.359366    0.044318
+  H    -3.728943    1.487476   -1.391939    0.037970
+  H    -2.048226    2.064466   -1.559225    0.043408
+  H    -0.388717   -2.510184    0.004174   -0.019120
+  H     0.388556   -2.510807   -0.004259   -0.019096
+
+    ======= Summary of atomic dipole moment corrected (ADC) charges =======
+ Atom:    1Pt  Corrected charge:   -0.707820  Before:   -1.000455
+ Atom:    2P   Corrected charge:    0.030778  Before:   -0.419087
+ Atom:    3P   Corrected charge:    0.030735  Before:   -0.419096
+ Atom:    4C   Corrected charge:   -0.044889  Before:   -0.323795
+ Atom:    5H   Corrected charge:    0.064283  Before:    0.206208
+ Atom:    6H   Corrected charge:    0.001336  Before:    0.198061
+ Atom:    7H   Corrected charge:    0.071662  Before:    0.208403
+ Atom:    8C   Corrected charge:   -0.061139  Before:   -0.341056
+ Atom:    9H   Corrected charge:    0.051448  Before:    0.201388
+ Atom:   10H   Corrected charge:    0.014382  Before:    0.196297
+ Atom:   11H   Corrected charge:    0.050144  Before:    0.200818
+ Atom:   12C   Corrected charge:   -0.043806  Before:   -0.324119
+ Atom:   13H   Corrected charge:    0.071627  Before:    0.208443
+ Atom:   14H   Corrected charge:    0.000698  Before:    0.197779
+ Atom:   15H   Corrected charge:    0.064901  Before:    0.206514
+ Atom:   16C   Corrected charge:   -0.043814  Before:   -0.324119
+ Atom:   17H   Corrected charge:    0.071623  Before:    0.208441
+ Atom:   18H   Corrected charge:    0.000700  Before:    0.197781
+ Atom:   19H   Corrected charge:    0.064895  Before:    0.206511
+ Atom:   20C   Corrected charge:   -0.061139  Before:   -0.341064
+ Atom:   21H   Corrected charge:    0.014382  Before:    0.196295
+ Atom:   22H   Corrected charge:    0.050155  Before:    0.200824
+ Atom:   23H   Corrected charge:    0.051427  Before:    0.201378
+ Atom:   24C   Corrected charge:   -0.044871  Before:   -0.323798
+ Atom:   25H   Corrected charge:    0.064294  Before:    0.206210
+ Atom:   26H   Corrected charge:    0.001332  Before:    0.198059
+ Atom:   27H   Corrected charge:    0.071654  Before:    0.208403
+ Atom:   28H   Corrected charge:    0.082562  Before:    0.084413
+ Atom:   29H   Corrected charge:    0.082437  Before:    0.084344
+ Summing up all corrected charges:  -0.0000225
+

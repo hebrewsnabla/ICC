@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.17)  29 NOV 2019 18:11
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.17)  11 DEC 2019 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**icc_pre_1127.tex
-(./icc_pre_1127.tex
+**icc_proj.tex
+(./icc_proj.tex
 LaTeX2e <2018-12-01>
 (d:/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
@@ -1654,6 +1654,34 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 97.
 
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mhchem@cee' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mhchem@cee' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 103.
+
+
 Package xeCJK Warning: Fandol is being set as the default font for CJK text.
 (xeCJK)                Please make sure it has been properly installed.
 
@@ -1690,31 +1718,8 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 \@quotelevel=\count534
 \@quotereset=\count535
-
-(./icc_pre_1127.aux
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-)
-\openout1 = `icc_pre_1127.aux'.
+ (./icc_proj.aux)
+\openout1 = `icc_proj.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
 LaTeX Font Info:    ... okay on input line 103.
@@ -1792,9 +1797,13 @@ LaTeX Info: Redefining \ref on input line 103.
 LaTeX Info: Redefining \pageref on input line 103.
 LaTeX Info: Redefining \nameref on input line 103.
 
-(./icc_pre_1127.out) (./icc_pre_1127.out)
+(./icc_proj.out) (./icc_proj.out)
 \@outlinefile=\write6
-\openout6 = `icc_pre_1127.out'.
+\openout6 = `icc_proj.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/ppl/m/n --> OT1/cmss/m/n on input line 103.
@@ -1899,18 +1908,18 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `icc_pre_1127.bcf'.
+\openout5 = `icc_proj.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'icc_pre_1127.bbl' found.
- (./icc_pre_1127.bbl)
+Package biblatex Info: ... file 'icc_proj.bbl' not found.
+
+No file icc_proj.bbl.
 Package biblatex Info: Reference section=0 on input line 103.
 Package biblatex Info: Reference segment=0 on input line 103.
-
 (d:/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-(./icc_pre_1127.nav)
+(./icc_proj.nav)
 LaTeX Font Info:    Try loading font information for OML+zplm on input line 103
 .
  (d:/texlive/2018/texmf-dist/tex/latex/psnfss/omlzplm.fd
@@ -1958,83 +1967,70 @@ LaTeX Font Info:    Try loading font information for OT1+zplm on input line 103
 
 (d:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-) [1
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 107.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 107.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 107.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 107.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 107.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 107.
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <14.4> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 107.
 
-]
-(./icc_pre_1127.toc) [2
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <8> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 107.
+
+LaTeX Font Info:    Try loading font information for TU+ppl on input line 107.
+LaTeX Font Info:    No file TUppl.fd. on input line 107.
+
+
+LaTeX Font Warning: Font shape `TU/ppl/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 107.
+
+[1
+
+] (./icc_proj.toc) [2
 
 ] [3
 
 ]
-\@verb\makeset=\box121
- [4
-
-]
-\@verb\makeset=\box122
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 169.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 169.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 169.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 169.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 169.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 169.
-LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <8> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 169.
-
-LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <5> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 169.
-
- [5
-
-] [6
-
-] [7
-
-] [8
-
-] [9
-
-]
 \tf@nav=\write7
-\openout7 = `icc_pre_1127.nav'.
+\openout7 = `icc_proj.nav'.
 
 \tf@toc=\write8
-\openout8 = `icc_pre_1127.toc'.
+\openout8 = `icc_proj.toc'.
 
 \tf@snm=\write9
-\openout9 = `icc_pre_1127.snm'.
+\openout9 = `icc_proj.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
- (./icc_pre_1127.aux
-
-Package pdfbase Warning: Rerun to get internal references right!
-
-)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 259.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
-Package rerunfilecheck Info: File `icc_pre_1127.out' has not changed.
-(rerunfilecheck)             Checksum: 39BFF3072AD16146184CED991A4ECEF9.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+ (./icc_proj.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 126.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
+Package rerunfilecheck Info: File `icc_proj.out' has not changed.
+(rerunfilecheck)             Checksum: 2B07A7CD615415EC1047D04F7CE25407.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package logreq Info: Writing requests to 'icc_pre_1127.run.xml'.
-\openout1 = `icc_pre_1127.run.xml'.
+Package logreq Info: Writing requests to 'icc_proj.run.xml'.
+\openout1 = `icc_proj.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50006 strings out of 492933
- 1020879 string characters out of 6136537
- 1764329 words of memory out of 5000000
- 53315 multiletter control sequences out of 15000+600000
- 547256 words of font info for 110 fonts, out of 8000000 for 9000
+ 49579 strings out of 492933
+ 1013931 string characters out of 6136537
+ 1519084 words of memory out of 5000000
+ 52883 multiletter control sequences out of 15000+600000
+ 547283 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 56i,15n,72p,797b,4583s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,15n,72p,793b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on icc_pre_1127.pdf (9 pages).
+Output written on icc_proj.pdf (3 pages).

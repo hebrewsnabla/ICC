@@ -12,7 +12,7 @@
 \usepackage{mhchem}
 \usepackage{animate}
 \usepackage[isbn=false,doi=false,url=false,uniquename=init,style=chem-acs]{biblatex}
-\addbibresource{icc_pre_1108.bib}
+\addbibresource{icc_pre_1127.bib}
 \AtEveryCitekey{\clearfield{title}}
 \AtEveryBibitem{\clearfield{title}}
 \usepackage{textcomp}
@@ -213,12 +213,49 @@ K = \sum_k^N \sum_\ell^N P_{k\ell} S_{k\ell}
 \section{Charge Decomposition Analysis}
 \begin{frame}
 \frametitle{Charge Decomposition Analysis}
-
+Charge Decomposition Analysis was proposed by S. Dapprich and G. Frenking, to analyze charge transfer.\\
+\hfill \fullcite{Dapprich1995}
+~\vspace{40pt}\\
+Common approaches for analyzing charge transfer
+\begin{enumerate}
+	\item Atomic charges
+	\item Density difference
+	\item Charge decomposition analysis
+\end{enumerate}
 \end{frame}
 
 \begin{frame}
 \frametitle{Fragment Orbitals}
+Recall that
+\begin{equation}\label{key}
+\Braket{\phi_i | \phi_i} = \sum_k^N \sum_\ell^N C_{ki}^* C_{\ell i} S_{kl}
+\end{equation}
+where $ N $ is the number of AOs, and $ S $ is the overlap matrix between AOs. \\
+Do SCF calculation for two fragments at same geometry separately, we get two set of MOs of fragments. They are called fragment orbitals, with a total number $ N $.\\
+Expand total MO with FOs instead, we get
+\begin{equation}\label{key}
+\eta_i\Braket{\phi_i | \phi_i} = \eta_i\sum_m^N \sum_n^N C_{mi}^* C_{ni} S_{mn}
+\end{equation}
+where
+\begin{align}\label{key}
+S_{mn} = \Braket{\phi_m | \phi_n}
+\end{align}
 
 \end{frame}
+
+\begin{frame}
+Define
+\begin{align}
+d_i = \sum_{m\in A}^{occ} \sum_{n\in B}^{vir} \eta_i C_{mi}^* C_{ni} S_{mn}\\
+b_i = \sum_{m\in A}^{vir} \sum_{n\in B}^{occ} \eta_i C_{mi}^* C_{ni} S_{mn}\\
+r_i = \sum_{m\in A}^{occ} \sum_{n\in B}^{occ} \eta_i C_{mi}^* C_{ni} S_{mn}\\
+d = \sum_i d_i \qquad b = \sum_i b_i \qquad r = \sum_i r_i
+\end{align}
+thus\\
+$ d $ is the charge transfer from A to B, $ b $ is the charge transfer from B to A. $ d-b $ is the net charge transfer from A to B.
+
+\end{frame}
+
+
 	
 \end{document}

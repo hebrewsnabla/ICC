@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>icc_pre_1127.bcf</file>
+      <file>icc_proj.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>icc_pre_1127.bbl</file>
+      <file>icc_proj.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -68,22 +68,22 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>icc_pre_1127</infile>
+      <infile>icc_proj</infile>
     </cmdline>
     <input>
-      <file>icc_pre_1127.bcf</file>
+      <file>icc_proj.bcf</file>
     </input>
     <output>
-      <file>icc_pre_1127.bbl</file>
+      <file>icc_proj.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>icc_pre_1127.bbl</file>
+      <file>icc_proj.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>icc_pre_1127.bcf</file>
+      <file>icc_proj.bcf</file>
     </requires>
     <requires type="editable">
-      <file>icc_pre_1127.bib</file>
+      <file>icc_proj.bib</file>
     </requires>
   </external>
 </requests>

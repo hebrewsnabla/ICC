@@ -1,0 +1,15 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[1] Config.pm:307> INFO - Logfile is 'icc_proj2.blg'
+[76] biber-MSWIN32:315> INFO - === 
+[139] Biber.pm:371> INFO - Reading 'icc_proj2.bcf'
+[388] Biber.pm:889> INFO - Found 5 citekeys in bib section 0
+[412] Biber.pm:4093> INFO - Processing section 0
+[441] Biber.pm:4254> INFO - Looking for bibtex format file 'icc_proj.bib' for section 0
+[455] bibtex.pm:1523> INFO - LaTeX decoding ...
+[499] bibtex.pm:1340> INFO - Found BibTeX data source 'icc_proj.bib'
+[611] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[611] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[611] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[611] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[631] bbl.pm:636> INFO - Writing 'icc_proj2.bbl' with encoding 'UTF-8'
+[646] bbl.pm:739> INFO - Output to icc_proj2.bbl

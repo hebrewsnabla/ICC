@@ -1,0 +1,309 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{laitar2005efficient}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=8ae8ae6f6f41d81b28a011c537871da7}{%
+           family={Laitar},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelima S},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=57f66066d804db9a6a0f631aa4beba38}{%
+           family={M{ü}ller},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=80b00e7505d5262ab16865f7c542bb6d}{%
+           family={Sadighi},
+           familyi={S\bibinitperiod},
+           given={Joseph\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{56ec26ac79b5569e35fe3118659fc88f}
+      \strng{fullhash}{cea02bf2556be542df205f1d8ca9f818}
+      \strng{bibnamehash}{cea02bf2556be542df205f1d8ca9f818}
+      \strng{authorbibnamehash}{cea02bf2556be542df205f1d8ca9f818}
+      \strng{authornamehash}{56ec26ac79b5569e35fe3118659fc88f}
+      \strng{authorfullhash}{cea02bf2556be542df205f1d8ca9f818}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{number}{49}
+      \field{title}{Efficient homogeneous catalysis in the reduction of CO2 to CO}
+      \field{volume}{127}
+      \field{year}{2005}
+      \field{pages}{17196\bibrangedash 17197}
+      \range{pages}{2}
+    \endentry
+    \entry{sadique2008reduction}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=ed839a84e28b357ba4db598357b52035}{%
+           family={Sadique},
+           familyi={S\bibinitperiod},
+           given={Azwana\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3acafa4c7a3176c70a073ab0bd33d536}{%
+           family={Brennessel},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima W},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c03a90b56972cc1fba9ad8f74ef1dbf8}{%
+           family={Holland},
+           familyi={H\bibinitperiod},
+           given={Patrick\bibnamedelima L},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{1024358c9329e79040fbeba99c08e919}
+      \strng{fullhash}{b7f6ccfd337956984b83fb42083386f7}
+      \strng{bibnamehash}{b7f6ccfd337956984b83fb42083386f7}
+      \strng{authorbibnamehash}{b7f6ccfd337956984b83fb42083386f7}
+      \strng{authornamehash}{1024358c9329e79040fbeba99c08e919}
+      \strng{authorfullhash}{b7f6ccfd337956984b83fb42083386f7}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inorganic chemistry}
+      \field{number}{3}
+      \field{title}{Reduction of CO2 to CO using low-coordinate iron: formation of a four-coordinate iron dicarbonyl complex and a bridging carbonate complex}
+      \field{volume}{47}
+      \field{year}{2008}
+      \field{pages}{784\bibrangedash 786}
+      \range{pages}{3}
+    \endentry
+    \entry{oren2018metal}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=ab772d8c9713d7486d04f7ad8575398a}{%
+           family={Oren},
+           familyi={O\bibinitperiod},
+           given={Dror},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=963c24edfdaef3695914e10b09050b85}{%
+           family={Diskin-Posner},
+           familyi={D\bibinithyphendelim P\bibinitperiod},
+           given={Yael},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e84846b3c7cfc5a4add87fdc0b981bb1}{%
+           family={Avram},
+           familyi={A\bibinitperiod},
+           given={Liat},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=54648413227911caab14d303eea6da64}{%
+           family={Feller},
+           familyi={F\bibinitperiod},
+           given={Moran},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6fa9e5aca5079d8d3485b1736cd09335}{%
+           family={Milstein},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{d34344341231b9fed680eaa6bb6f742a}
+      \strng{fullhash}{54a250f12a165b05728ca875c9044b81}
+      \strng{bibnamehash}{54a250f12a165b05728ca875c9044b81}
+      \strng{authorbibnamehash}{54a250f12a165b05728ca875c9044b81}
+      \strng{authornamehash}{d34344341231b9fed680eaa6bb6f742a}
+      \strng{authorfullhash}{54a250f12a165b05728ca875c9044b81}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Organometallics}
+      \field{number}{14}
+      \field{title}{Metal--Ligand Cooperation as Key in Formation of Dearomatized NiII--H Pincer Complexes and in Their Reactivity toward CO and CO2}
+      \field{volume}{37}
+      \field{year}{2018}
+      \field{pages}{2217\bibrangedash 2221}
+      \range{pages}{5}
+    \endentry
+    \entry{Leitl}{article}{}
+      \name{author}{8}{}{%
+        {{uniquename=0,uniquepart=base,hash=44768f50a6a72a14bb7597dac228a39e}{%
+           family={Leitl},
+           familyi={L\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a638eaa8d5e30e3845b1af08b4a6f612}{%
+           family={Marquardt},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e47d35605acad903e1011e3ccd128a71}{%
+           family={Coburger},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d5c44c90fb093d330188d5c0cc6d3228}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9e8514e5e9e7977056683eeb8b66060d}{%
+           family={Streitferdt},
+           familyi={S\bibinitperiod},
+           given={Verena},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e47c8cda19d962a91c50970e63eb2bef}{%
+           family={Gschwind},
+           familyi={G\bibinitperiod},
+           given={Ruth\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f6e7a495d5d7c1de97439f6e34a3ddd1}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e38ef56a720167342a9b4482494bd300}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca25aee12f172d33fd95aa6f2862542a}
+      \strng{fullhash}{4d8e161c770f7c71c7b5c993a6d37b78}
+      \strng{bibnamehash}{4d8e161c770f7c71c7b5c993a6d37b78}
+      \strng{authorbibnamehash}{4d8e161c770f7c71c7b5c993a6d37b78}
+      \strng{authornamehash}{ca25aee12f172d33fd95aa6f2862542a}
+      \strng{authorfullhash}{4d8e161c770f7c71c7b5c993a6d37b78}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Angew. Chem. Int. Ed.}
+      \field{number}{43}
+      \field{title}{Facile C=O Bond Splitting of Carbon Dioxide Induced by Metal–Ligand Cooperativity in a Phosphinine Iron(0) Complex}
+      \field{volume}{58}
+      \field{year}{2019}
+      \field{pages}{15407\bibrangedash 15411}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1002/anie.201909240
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/anie.201909240
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201909240
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201909240
+      \endverb
+      \keyw{CO2 fixation,cooperative effects,iron,P,N ligands,phosphinine}
+    \endentry
+    \entry{Hoidn}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=11bc8450d198698606c3f78132cedb65}{%
+           family={Hoidn},
+           familyi={H\bibinitperiod},
+           given={Christian\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=44768f50a6a72a14bb7597dac228a39e}{%
+           family={Leitl},
+           familyi={L\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8c41cba527e7fe01b7723ad7e0d0f08a}{%
+           family={Ziegler},
+           familyi={Z\bibinitperiod},
+           given={Christoph\bibnamedelimb G.\bibnamedelimi P.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=36b7c99492ad901bc4b67fb77dd9160f}{%
+           family={Shenderovich},
+           familyi={S\bibinitperiod},
+           given={Ilya\bibnamedelima G.},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e38ef56a720167342a9b4482494bd300}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ba8a47dcfe4e29e0f106d3057023c9c4}
+      \strng{fullhash}{1194afb3301ba0735306b645d7f8434e}
+      \strng{bibnamehash}{1194afb3301ba0735306b645d7f8434e}
+      \strng{authorbibnamehash}{1194afb3301ba0735306b645d7f8434e}
+      \strng{authornamehash}{ba8a47dcfe4e29e0f106d3057023c9c4}
+      \strng{authorfullhash}{1194afb3301ba0735306b645d7f8434e}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Eur. J. Inorg. Chem.}
+      \field{number}{11-12}
+      \field{title}{Halide-Substituted Phosphacyclohexadienyl Iron Complexes: Covalent Structures vs. Ion Pairs}
+      \field{volume}{2019}
+      \field{year}{2019}
+      \field{pages}{1567\bibrangedash 1574}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1002/ejic.201801135
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/ejic.201801135
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/ejic.201801135
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/ejic.201801135
+      \endverb
+      \keyw{Heterocycles,Iron,Phosphinine,Sandwich complexes,Structure elucidation}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

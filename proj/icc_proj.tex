@@ -1,7 +1,7 @@
 \documentclass[10pt,aspectratio=43]{beamer}
 %\usepackage{nju}			 %导入 nju 模板宏包
 %\usepackage[UTF8]{ctex}      %导入 ctex 宏包，添加中文支持
-\usepackage{xeCJK}
+%\usepackage{xeCJK}
 \usepackage{amsmath,amsfonts,amssymb,bm}   %导入数学公式所需宏包
 \usepackage{color}			 %字体颜色支持
 \usepackage{graphicx,hyperref,url}
@@ -9,7 +9,7 @@
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{float}
-\usepackage{mhchem}
+\usepackage[version=4]{mhchem}
 \usepackage{animate}
 \usepackage[isbn=false,doi=false,url=false,uniquename=init,style=chem-acs]{biblatex}
 \addbibresource{icc_proj.bib}
@@ -52,7 +52,7 @@
 \usepackage{multirow}
 \usepackage{siunitx}
 \definecolor{codegray}{gray}{0.9}
-\newfontfamily\Consolas{Consolas}
+%\newfontfamily\Consolas{Consolas}
 \newcommand{\code}[1]{\colorbox{codegray}{{\Consolas#1}}}
 \newcommand{\hl}[1]{\colorbox{yellow}{#1}}
 \lstnewenvironment{mcode}
@@ -74,6 +74,8 @@
 
 \usepackage{braket}
 \usepackage{physics}
+%\usepackage{caption}
+\setbeamertemplate{caption}[numbered]
 
 %\beamertemplateballitem		%设置 Beamer 主题
 %\catcode`\。=\active        %或者=13
@@ -92,7 +94,12 @@
 \title{Literature Report: A Facile $ \ce{C=O} $ Bond Splitting of $ \ce{CO_2} $ Catalyzed by Phosphinine Iron(0) Complex}	        %首页信息设置
 
 \author[]{            %个人信息设置
-    Shirong Wang\\[0.3cm]
+	%\begin{figure}
+	\includegraphics[width=0.5\linewidth]{reax.jpg}\\[0.3cm]
+	%	\caption{\footnotesize\fullcite{Leitl}}
+	%	\label{fig:reax}
+	%\end{figure}
+    Shirong Wang\\[0.2cm]
     %15XXXXXXXX\\[0.3cm]
     Kuang Yaming Honors School}
 
@@ -124,14 +131,112 @@ biological $ \ce{CO_2} $ reduction to $ \ce{CO} $, mediated by $ \ce{Ni} $, $ \c
 \end{frame}
 
 \begin{frame}
-Current examples of $ \ce{CO_2} $ cleavage based on 3d metals
+\frametitle{Background}
+Previous examples of $ \ce{CO_2} $ cleavage based on 3d metals\\
+\begin{figure}
+	\includegraphics[width=0.7\linewidth]{lit.jpg}
+\end{figure}
+\hfill\footnotesize\fullcite{laitar2005efficient}\\
+\hfill\footnotesize\fullcite{sadique2008reduction}\\
+\hfill\footnotesize\fullcite{oren2018metal}
 \end{frame}
 
 \begin{frame}
-Metal-ligand cooperation
+This work is the first reported example of $ \ce{C=O} $ cleavage of a $ \ce{CO_2} $ molecule mediated by a single $ \ce{Fe} $ centre.
+\begin{figure}
+	\includegraphics[width=0.6\linewidth]{reax.jpg}
+	\caption{\footnotesize\fullcite{Leitl}}
+	\label{fig:reax}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Inspiration}
+\begin{columns}
+	\column[]{0.7\linewidth}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Fe-TPP.jpg}
+		\caption{[Cp*Fe($ \eta^4 $-TPP)] and derived compounds
+		\footnotesize\fullcite{Hoidn}}
+	\end{figure}
+    \column[]{0.3\linewidth}
+    \begin{figure}
+    	\includegraphics[width=0.7\linewidth]{L.png}
+    	\caption{New ligand    2-(2'-pyridyl)-4,6-diphenylphosphinine}
+    \end{figure}
+\end{columns}
+
+	
+
+%Metal-ligand cooperation
+\end{frame}
+
+\section{Reaction Details}
+\begin{frame}
+\frametitle{Preparation}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{prep.jpg}
+	\caption{i) L, DME, -35\textcelsius to RT, -naphthalene;
+		     ii) 1 equiv. [K([18]crown-6)][Cp*Fe-(C$ _{10} $H$ _8 $)], 2 equiv. L, toluene/THF, -35\textcelsius to RT; 
+		     iii) 1 equiv. [K-([18]crown-6)][Cp*Fe(C$ _{10} $H$ _8 $)], THF.}
+\end{figure}
+Solution-phase $ ^{31}P $ NMR spectrum shows 1-$ \sigma $ and 1-$ \pi $, while XRD and $ ^{31}P $ CP MAS show only 1-$ \sigma $.   Selective crystallization failed.\\
+~\\
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Calculation for 1-$ \sigma $/1-$ \pi $}
+Conversion of 1-$ \pi $ to 1-$ \sigma $ is calculated to proceed with a barrier of \SI{27.0}{kcal/mol}, consistent with an equilibrium at room temperature. NMR indicates an approximately 2:1 ratio of 1-$ \sigma $:1-$ \pi $.
+\begin{figure}
+	\includegraphics[width=\linewidth]{conver.jpg}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Splitting Reaction}
+\begin{figure}
+	\includegraphics[width=0.7\linewidth]{reax2.jpg}
+	\caption{Reaction of 1-$ \sigma $ and 1-$ \pi $ with $ \ce{CO_2} $ (1 atm) in THF at room temperature.}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}
+Solid state structures of 3-$ \sigma $ and 3-$ \pi $
+\begin{figure}
+	\includegraphics[width=0.7\linewidth]{3.jpg}
+\end{figure}
+
 \end{frame}
 
 
+\begin{frame}
+\frametitle{Calculation for 1 $ \rightarrow $ 3 Reaction}
+Very small energy barriers:
+\begin{itemize}
+	\item 1-$ \sigma $ -> 3-$ \sigma $: \SI{3.5}{kcal/mol}
+	\item 1-$ \pi $ -> 3-$ \pi $: \SI{5.5}{kcal/mol}
+\end{itemize}
+\begin{figure}
+	\includegraphics[width=0.9\linewidth]{33.jpg}
+\end{figure}
+
+\end{frame}
+
+
+
+\section{Discussion and Expectations}
+\begin{frame}
+\frametitle{Discussion and Expectations}
+\begin{itemize}
+	\item Full catalysation cycle
+	\item Diversification of 1-$ \sigma $
+	\item Orbital analysis
+\end{itemize}
+
+\end{frame}
 
 
 \end{document}

@@ -1,0 +1,261 @@
+\documentclass[10pt,aspectratio=43]{beamer}
+%\usepackage{nju}			 %导入 nju 模板宏包
+%\usepackage[UTF8]{ctex}      %导入 ctex 宏包，添加中文支持
+\usepackage{xeCJK}
+\usepackage{amsmath,amsfonts,amssymb,bm}   %导入数学公式所需宏包
+\usepackage{color}			 %字体颜色支持
+\usepackage{graphicx,hyperref,url}
+\usepackage{listings}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{mhchem}
+\usepackage{animate}
+\usepackage[isbn=false,doi=false,url=false,uniquename=init,style=chem-acs]{biblatex}
+\addbibresource{icc_pre_1127.bib}
+\AtEveryCitekey{\clearfield{title}}
+\AtEveryBibitem{\clearfield{title}}
+\usepackage{textcomp}
+\usepackage{multicol}
+
+\usepackage{listings}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\lstset{ %
+	language=Python,                % the language of the code
+	basicstyle=\Consolas\footnotesize,           % the size of the fonts that are used for the code
+	numbers=left,                   % where to put the line-numbers
+	numberstyle=\tiny\color{gray},  % the style that is used for the line-numbers
+	stepnumber=1,                   % the step between two line-numbers. If it's 1, each line 
+	% will be numbered
+	numbersep=5pt,                  % how far the line-numbers are from the code
+	backgroundcolor=\color{white},      % choose the background color. You must add \usepackage{color}
+	showspaces=false,               % show spaces adding particular underscores
+	showstringspaces=false,         % underline spaces within strings
+	showtabs=false,                 % show tabs within strings adding particular underscores
+	frame=single,                   % adds a frame around the code
+	rulecolor=\color{black},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
+	tabsize=4,                      % sets default tabsize to 2 spaces
+	captionpos=b,                   % sets the caption-position to bottom
+	breaklines=true,                % sets automatic line breaking
+	breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+	title=\lstname,                   % show the filename of files included with \lstinputlisting;
+	% also try caption instead of title
+	keywordstyle=\color{blue},          % keyword style
+	commentstyle=\color{dkgreen},       % comment style
+	stringstyle=\color{mauve},         % string literal style
+	escapeinside={\%*}{*)},            % if you want to add LaTeX within your code
+	morekeywords={*,...}               % if you want to add more keywords to the set
+}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{siunitx}
+\definecolor{codegray}{gray}{0.9}
+\newfontfamily\Consolas{Consolas}
+\newcommand{\code}[1]{\colorbox{codegray}{{\Consolas#1}}}
+\newcommand{\hl}[1]{\colorbox{yellow}{#1}}
+\lstnewenvironment{mcode}
+{\lstset{backgroundcolor=\color{lightgray},
+		xleftmargin=0.5cm,
+		frame=tlbr,framesep=4pt,framerule=0pt,
+		%language=python,
+		keepspaces=false,
+		numbers=none
+}}%
+{}
+
+\usepackage{tikz,mathpazo}
+\usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{calc}
+\tikzstyle{box} = [rectangle, minimum width = 1.5cm, minimum height=0.8cm,text centered, draw = black]
+\tikzstyle{rbox} = [rectangle, rounded corners, minimum width = 1.5cm, minimum height=0.8cm,text centered, draw = black, fill = blue!40]
+\tikzstyle{arrow} = [->,>=stealth]
+
+\usepackage{braket}
+\usepackage{physics}
+
+%\beamertemplateballitem		%设置 Beamer 主题
+%\catcode`\。=\active        %或者=13
+%\newcommand{。}{．}         %将正文中的“。”号转换为“.”。
+
+%\AtBeginSection[]
+%{
+%  \begin{frame}
+%    \frametitle{Contents}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
+
+\numberwithin{equation}{section}
+
+\title{Molecular Orbitals and Charge Decomposition Analysis}	        %首页信息设置
+
+\author[]{            %个人信息设置
+    Shirong Wang\\[0.3cm]
+    %15XXXXXXXX\\[0.3cm]
+    Kuang Yaming Honors School}
+
+\date{\today}
+
+
+
+\begin{document}
+\begin{frame}
+\hfill ICC Report III
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Contents}
+\tableofcontents
+\end{frame}
+
+\section{Molecular Orbitals}
+\begin{frame}
+\frametitle{}
+Expand each MO with N AOs (basis)
+\begin{equation}\label{key}
+\phi_i = \sum_k^N C_{ki}\chi_k
+\end{equation}
+
+\begin{tabbing}
+	\centering
+	\begin{tabular}{ccccc}
+		\hline
+		& math variable & subscript & number & number example\\ \hline
+		MO & $ \phi $ & $ i $ & N & 420\\
+		AO & $ \chi $ & $ k $ & N & 420\\
+		occupied MO &   &   &   occ & 52\\
+		virtual MO &   &     &  vir & 368\\
+		%MO Coeff & C   & $ k,i $ & $ N\cross N $ & 420$ \cross $420\\
+		\hline
+	\end{tabular}
+\end{tabbing}
+$ N $ is determined by user, e.g. \code{def2TZVP}.\\
+$ occ = K/2 $, where $ K $ is the number of electrons (In restricted case).\\
+
+\end{frame}
+
+\defverbatim[colored]\makeset{
+\begin{mcode}
+Title Card Required
+SP        RPBE1PBE                             def2TZVP
+Number of atoms                            I               29
+	
+Full Title                                 C   N=           2
+Title Card Required
+Route                                      C   N=           8
+#p pbe1pbe/def2TZVP geom=allcheck scrf=(smd,solvent=benzene)
+nosymm pop=full IOp(3/33=1,3/32=2)
+Charge                                     I                0
+Multiplicity                               I                1
+Number of electrons                        I              104
+Number of alpha electrons                  I               52
+Number of beta electrons                   I               52
+Number of basis functions                  I              420
+Number of independent functions            I              420
+\end{mcode}
+}
+\begin{frame}
+\frametitle{But How Can I Count ...}
+Check the \code{.fchk} file!
+\makeset
+\end{frame}
+
+\defverbatim[colored]\makeset{
+\begin{mcode}
+ Standard basis: def2TZVP (5D, 7F)
+Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
+There are   466 symmetry adapted cartesian basis functions of A   symmetry.
+There are   420 symmetry adapted basis functions of A   symmetry.
+420 basis functions,   679 primitive gaussians,   466 cartesian basis functions
+52 alpha electrons       52 beta electrons
+...
+NBasis=   420 RedAO= T EigKep=  6.59D-04  NBF=   420
+NBsUse=   420 1.00D-06 EigRej= -1.00D+00 NBFU=   420
+\end{mcode}
+}
+\begin{frame}
+%\frametitle{Basis}
+or \code{.log} file
+\makeset
+\end{frame}
+
+\begin{frame}
+\frametitle{MO Coefficient and Overlap Matrix}
+\begin{equation}\label{key}
+K/2 = \sum_i^{occ}\Braket{\phi_i | \phi_i} = \sum_i^{occ} \sum_k^N\sum_l^N C_{ki}^*C_{li} \Braket{\chi_k | \chi_l}
+\end{equation}
+or
+\begin{align}\label{key}
+K = \sum_i^N \eta_i\Braket{\phi_i | \phi_i} = \sum_i^N \eta_i \sum_k^N\sum_l^N C_{ki}^*C_{li} \Braket{\chi_k | \chi_l} 
+\end{align}
+where 
+\begin{equation}\label{key}
+\eta_i = 
+\left\{
+\mqty{2 & i\in occ\\ 0 & i\in vir}
+\right.
+\end{equation}
+Moreover, define
+\begin{align}
+\text{Density Matrix} & & P_{k\ell} = \sum_i^N \eta_i C_{ki}^* C_{\ell i} \\
+\text{Overlap Matrix} & & S_{k\ell} = \Braket{\chi_k | \chi_\ell}
+\end{align}
+thus
+\begin{equation}\label{key}
+K = \sum_k^N \sum_\ell^N P_{k\ell} S_{k\ell}
+\end{equation}
+
+\end{frame}
+
+\section{Charge Decomposition Analysis}
+\begin{frame}
+\frametitle{Charge Decomposition Analysis}
+Charge Decomposition Analysis was proposed by S. Dapprich and G. Frenking, to analyze charge transfer.\\
+\hfill \fullcite{Dapprich1995}
+~\vspace{40pt}\\
+Common approaches for analyzing charge transfer
+\begin{enumerate}
+	\item Atomic charges
+	\item Density difference
+	\item Charge decomposition analysis
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{Fragment Orbitals}
+Recall that
+\begin{equation}\label{key}
+\Braket{\phi_i | \phi_i} = \sum_k^N \sum_\ell^N C_{ki}^* C_{\ell i} S_{kl}
+\end{equation}
+where $ N $ is the number of AOs, and $ S $ is the overlap matrix between AOs. \\
+Do SCF calculation for two fragments at same geometry separately, we get two set of MOs of fragments. They are called fragment orbitals, with a total number $ N $.\\
+Expand total MO with FOs instead, we get
+\begin{equation}\label{key}
+\eta_i\Braket{\phi_i | \phi_i} = \eta_i\sum_m^N \sum_n^N C_{mi}^* C_{ni} S_{mn}
+\end{equation}
+where
+\begin{align}\label{key}
+S_{mn} = \Braket{\phi_m | \phi_n}
+\end{align}
+
+\end{frame}
+
+\begin{frame}
+Define
+\begin{align}
+d_i = \sum_{m\in A}^{occ} \sum_{n\in B}^{vir} \eta_i C_{mi}^* C_{ni} S_{mn}\\
+b_i = \sum_{m\in A}^{vir} \sum_{n\in B}^{occ} \eta_i C_{mi}^* C_{ni} S_{mn}\\
+r_i = \sum_{m\in A}^{occ} \sum_{n\in B}^{occ} \eta_i C_{mi}^* C_{ni} S_{mn}\\
+d = \sum_i d_i \qquad b = \sum_i b_i \qquad r = \sum_i r_i
+\end{align}
+thus\\
+$ d $ is the charge transfer from A to B, $ b $ is the charge transfer from B to A. $ d-b $ is the net charge transfer from A to B.
+
+\end{frame}
+
+
+	
+\end{document}

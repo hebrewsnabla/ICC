@@ -1,5 +1,5 @@
 \documentclass[10pt,aspectratio=43,mathserif]{beamer}
-%\usepackage{nju}			 %导入 nju 模板宏包
+\usepackage{nju}			 %导入 nju 模板宏包
 %\usepackage[UTF8]{ctex}      %导入 ctex 宏包，添加中文支持
 \usepackage{xeCJK}
 \usepackage{amsmath,amsfonts,amssymb,bm}   %导入数学公式所需宏包
@@ -11,10 +11,10 @@
 \usepackage{float}
 \usepackage{mhchem}
 \usepackage{animate}
-\usepackage[isbn=false,doi=false,uniquename=init]{biblatex}
+\usepackage[isbn=false,doi=false,uniquename=init,url=false,style=chem-acs]{biblatex}
 \addbibresource{icc_pre_1108.bib}
-\AtEveryCitekey{\clearfield{title}}
-\AtEveryBibitem{\clearfield{title}}
+%\AtEveryCitekey{\clearfield{title}}
+%\AtEveryBibitem{\clearfield{title}}
 \usepackage{textcomp}
 \usepackage{multicol}
 
@@ -46,6 +46,7 @@
 \begin{document}
 
 \begin{frame}
+\hfill ICC Report II\\
 \titlepage
 \end{frame}
 
@@ -79,7 +80,7 @@ Only \textsl{cis} product is symmetry allowed. (\textsl{cis} product can be conv
 \begin{frame}
 \frametitle{TS}
 \begin{figure}
-	\animategraphics[width=0.45\linewidth,loop,autoplay]{30}{../Pt/pbe0/vib/Pt_tsb000}{00}{47}
+	\animategraphics[width=0.45\linewidth,loop,autoplay]{30}{../../1030/Pt/pbe0/vib/Pt_tsb000}{00}{47}
 	\includegraphics[width=0.45\linewidth]{Pt_tsb_orb.png}
 \end{figure}
 Calculated at PBE0-D3/def2-TZVP.
@@ -109,9 +110,9 @@ Reaction path from literature
 Reaction Path
 \begin{columns}
 	\column{0.5\linewidth}
-	\includegraphics[width=\linewidth]{../Pt/pbe0/irc/irc.png}
+	\includegraphics[width=\linewidth]{../../1030/Pt/pbe0/irc/irc.png}
     \column{0.5\linewidth}
-    \includegraphics[width=\linewidth]{../Pt/pbe0/Pt.png}
+    \includegraphics[width=\linewidth]{../../1030/Pt/pbe0/Pt.png}
 \end{columns}
 \begin{table}
 	\centering

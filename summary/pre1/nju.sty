@@ -29,8 +29,8 @@
 \setbeamertemplate{part page}[default][colsep=-4bp,rounded=true]
 
 % Background
-\pgfdeclareimage[width=\paperwidth,height=0.95\paperheight]{bg}{njubackground}
-\setbeamertemplate{background}{\pgfuseimage{bg}}
+%\pgfdeclareimage[width=\paperwidth,height=0.95\paperheight]{bg}{njubackground}
+%\setbeamertemplate{background}{\pgfuseimage{bg}}
 
 % Colors
 \usecolortheme[RGB={106,0,95}]{structure}
@@ -71,9 +71,9 @@
 \defbeamertemplate*{headline}{nju theme}{%
   \leavevmode%
   \@tempdimb=6.4375ex%
-    \pgfdeclareimage[height=.95\@tempdimb]{logo}{njulogo.pdf}%
-    \pgfdeclareimage[height=1.\@tempdimb]{title_logo}{njuname.png}%
-    \pgfdeclareimage[height=.9\@tempdimb]{math_logo}{nju_dii.png}%
+    \pgfdeclareimage[height=0.95\@tempdimb]{logo}{njulogo.pdf}%
+    \pgfdeclareimage[height=1.0\@tempdimb]{title_logo}{njuname.png}%
+    \pgfdeclareimage[height=0.9\@tempdimb]{math_logo}{nju_dii.png}%
   \logo{\pgfuseimage{logo}}%
   \ifdim\@tempdimb>0pt%
     \advance\@tempdimb by 1.125ex%

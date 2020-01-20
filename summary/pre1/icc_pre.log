@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.17)  19 JAN 2020 22:33
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.17)  19 JAN 2020 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**icc_pre_1108.tex
-(./icc_pre_1108.tex
+**icc_pre.tex
+(./icc_pre.tex
 LaTeX2e <2018-12-01>
 (d:/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
@@ -1109,372 +1109,9 @@ Package: ocgbase 2018/06/07 v0.14 support package for ocgx2.sty
 \@anim@curfield=\count371
 \@anim@@resizeflags=\count372
 )
-(d:/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
-
-(d:/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count373
-
-(d:/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-\c@tabx@nest=\count374
-\c@listtotal=\count375
-\c@listcount=\count376
-\c@liststart=\count377
-\c@liststop=\count378
-\c@citecount=\count379
-\c@citetotal=\count380
-\c@multicitecount=\count381
-\c@multicitetotal=\count382
-\c@instcount=\count383
-\c@maxnames=\count384
-\c@minnames=\count385
-\c@maxitems=\count386
-\c@minitems=\count387
-\c@citecounter=\count388
-\c@maxcitecounter=\count389
-\c@savedcitecounter=\count390
-\c@uniquelist=\count391
-\c@uniquename=\count392
-\c@refsection=\count393
-\c@refsegment=\count394
-\c@maxextratitle=\count395
-\c@maxextratitleyear=\count396
-\c@maxextraname=\count397
-\c@maxextradate=\count398
-\c@maxextraalpha=\count399
-\c@abbrvpenalty=\count400
-\c@highnamepenalty=\count401
-\c@lownamepenalty=\count402
-\c@maxparens=\count403
-\c@parenlevel=\count404
-\blx@tempcnta=\count405
-\blx@tempcntb=\count406
-\blx@tempcntc=\count407
-\blx@maxsection=\count408
-\blx@maxsegment@0=\count409
-\blx@notetype=\count410
-\blx@parenlevel@text=\count411
-\blx@parenlevel@foot=\count412
-\blx@sectionciteorder@0=\count413
-\blx@entrysetcounter=\count414
-\labelnumberwidth=\skip85
-\labelalphawidth=\skip86
-\biblabelsep=\skip87
-\bibitemsep=\skip88
-\bibnamesep=\skip89
-\bibinitsep=\skip90
-\bibparsep=\skip91
-\bibhang=\skip92
-\blx@bcfin=\read4
-\blx@bcfout=\write5
-\c@mincomprange=\count415
-\c@maxcomprange=\count416
-\c@mincompwidth=\count417
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(d:/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'chem-acs.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count418
-\c@savedafterword=\count419
-\c@annotator=\count420
-\c@savedannotator=\count421
-\c@author=\count422
-\c@savedauthor=\count423
-\c@bookauthor=\count424
-\c@savedbookauthor=\count425
-\c@commentator=\count426
-\c@savedcommentator=\count427
-\c@editor=\count428
-\c@savededitor=\count429
-\c@editora=\count430
-\c@savededitora=\count431
-\c@editorb=\count432
-\c@savededitorb=\count433
-\c@editorc=\count434
-\c@savededitorc=\count435
-\c@foreword=\count436
-\c@savedforeword=\count437
-\c@holder=\count438
-\c@savedholder=\count439
-\c@introduction=\count440
-\c@savedintroduction=\count441
-\c@namea=\count442
-\c@savednamea=\count443
-\c@nameb=\count444
-\c@savednameb=\count445
-\c@namec=\count446
-\c@savednamec=\count447
-\c@translator=\count448
-\c@savedtranslator=\count449
-\c@shortauthor=\count450
-\c@savedshortauthor=\count451
-\c@shorteditor=\count452
-\c@savedshorteditor=\count453
-\c@labelname=\count454
-\c@savedlabelname=\count455
-\c@institution=\count456
-\c@savedinstitution=\count457
-\c@lista=\count458
-\c@savedlista=\count459
-\c@listb=\count460
-\c@savedlistb=\count461
-\c@listc=\count462
-\c@savedlistc=\count463
-\c@listd=\count464
-\c@savedlistd=\count465
-\c@liste=\count466
-\c@savedliste=\count467
-\c@listf=\count468
-\c@savedlistf=\count469
-\c@location=\count470
-\c@savedlocation=\count471
-\c@organization=\count472
-\c@savedorganization=\count473
-\c@origlocation=\count474
-\c@savedoriglocation=\count475
-\c@origpublisher=\count476
-\c@savedorigpublisher=\count477
-\c@publisher=\count478
-\c@savedpublisher=\count479
-\c@language=\count480
-\c@savedlanguage=\count481
-\c@origlanguage=\count482
-\c@savedoriglanguage=\count483
-\c@pageref=\count484
-\c@savedpageref=\count485
-\shorthandwidth=\skip93
-\shortjournalwidth=\skip94
-\shortserieswidth=\skip95
-\shorttitlewidth=\skip96
-\shortauthorwidth=\skip97
-\shorteditorwidth=\skip98
-\locallabelnumberwidth=\skip99
-\locallabelalphawidth=\skip100
-\localshorthandwidth=\skip101
-\localshortjournalwidth=\skip102
-\localshortserieswidth=\skip103
-\localshorttitlewidth=\skip104
-\localshortauthorwidth=\skip105
-\localshorteditorwidth=\skip106
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
-
-(d:/texlive/2018/texmf-dist/tex/latex/biblatex/blx-unicode.def)
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(d:/texlive/2018/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(d:/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count486
-\c@textcitetotal=\count487
-\c@textcitemaxnames=\count488
-\c@biburlnumpenalty=\count489
-\c@biburlucpenalty=\count490
-\c@biburllcpenalty=\count491
-\c@smartand=\count492
-)
-Package biblatex Info: Trying to load bibliography style 'chem-acs'...
-Package biblatex Info: ... file 'chem-acs.bbx' found.
-
-(d:/texlive/2018/texmf-dist/tex/latex/biblatex-chem/chem-acs.bbx
-File: chem-acs.bbx 2018/10/18 v1.1w biblatex bibliography style
-Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.bbx' found.
-
-(d:/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(d:/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(d:/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count493
-\c@bbx:relatedtotal=\count494
-))))
-Package biblatex Info: Trying to load citation style 'chem-acs'...
-Package biblatex Info: ... file 'chem-acs.cbx' found.
-
-(d:/texlive/2018/texmf-dist/tex/latex/biblatex-chem/chem-acs.cbx
-File: chem-acs.cbx 2018/10/18 v1.1w biblatex citation style
-Package biblatex Info: Trying to load citation style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.cbx' found.
-
-(d:/texlive/2018/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
-File: numeric-comp.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count495
-\c@cbx@tempcntb=\count496
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-))
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(d:/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-))
-(d:/texlive/2018/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-(d:/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-)
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)
-(d:/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
-\c@tracingmulticols=\count497
-\mult@box=\box80
-\multicol@leftmargin=\dimen333
-\c@unbalance=\count498
-\c@collectmore=\count499
-\doublecol@number=\count500
-\multicoltolerance=\count501
-\multicolpretolerance=\count502
-\full@width=\dimen334
-\page@free=\dimen335
-\premulticols=\dimen336
-\postmulticols=\dimen337
-\multicolsep=\skip107
-\multicolbaselineskip=\skip108
-\partial@page=\box81
-\last@line=\box82
-\maxbalancingoverflow=\dimen338
-\mult@rightbox=\box83
-\mult@grightbox=\box84
-\mult@gfirstbox=\box85
-\mult@firstbox=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\@tempa=\box98
-\@tempa=\box99
-\@tempa=\box100
-\@tempa=\box101
-\@tempa=\box102
-\@tempa=\box103
-\c@columnbadness=\count503
-\c@finalcolumnbadness=\count504
-\last@try=\dimen339
-\multicolovershoot=\dimen340
-\multicolundershoot=\dimen341
-\mult@nat@firstbox=\box104
-\colbreak@box=\box105
-\mc@col@check@num=\count505
-)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 40.
+(hyperref)                removing `\\' on input line 34.
 
 
 Package xeCJK Warning: Fandol is being set as the default font for CJK text.
@@ -1502,45 +1139,34 @@ Package fontspec Info: Font family 'FandolHei-Regular(0)' created for font
 
 (d:/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2018/04/30 v3.7.1 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count506
-\l__xeCJK_listings_flag_int=\count507
+\l__xeCJK_listings_max_char_int=\count373
+\l__xeCJK_listings_flag_int=\count374
 )
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
+(./icc_pre.aux
 
-(d:/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+LaTeX Warning: Label `key' multiply defined.
+
 )
-\@quotelevel=\count508
-\@quotereset=\count509
+\openout1 = `icc_pre.aux'.
 
-(./icc_pre_1108.aux)
-\openout1 = `icc_pre_1108.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 46.
- (d:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1577,8 +1203,8 @@ LaTeX Font Info:    ... okay on input line 46.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box106
-Package hyperref Info: Link coloring OFF on input line 46.
+\AtBeginShipoutBox=\box80
+Package hyperref Info: Link coloring OFF on input line 40.
 
 (d:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1586,50 +1212,50 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (d:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count510
+\c@section@level=\count375
 )
-LaTeX Info: Redefining \ref on input line 46.
-LaTeX Info: Redefining \pageref on input line 46.
-LaTeX Info: Redefining \nameref on input line 46.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
 
-(./icc_pre_1108.out) (./icc_pre_1108.out)
-\@outlinefile=\write6
-\openout6 = `icc_pre_1108.out'.
+(./icc_pre.out) (./icc_pre.out)
+\@outlinefile=\write5
+\openout5 = `icc_pre.out'.
 
 \symnumbers=\mathgroup9
 \sympureletters=\mathgroup10
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 46.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 46.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 46.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 46.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/m/it on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 46.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/m/it on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 46.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 46.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 46.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/lmr/m/it --> TU/lmr/bx/it on input line 46.
+(Font)                  TU/lmr/m/it --> TU/lmr/bx/it on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 46.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/lmr/bx/n --> TU/lmr/bx/n on input line 46.
+(Font)                  TU/lmr/bx/n --> TU/lmr/bx/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/bx/n on input line 46.
+(Font)                  TU/lmss/m/n --> TU/lmss/bx/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/lmr/m/it --> TU/lmr/bx/it on input line 46.
+(Font)                  TU/lmr/m/it --> TU/lmr/bx/it on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/bx/n on input line 46.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/bx/n on input line 40.
 
 (d:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
 glish.dict
@@ -1661,80 +1287,78 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 46.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 46.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 46.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 46.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 46.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 46.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 46.
-LaTeX Font Info:    Redeclaring math accent \check on input line 46.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 46.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 46.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 46.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 46.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 40.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 40.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 40.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 40.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 40.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 40.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 40.
+LaTeX Font Info:    Redeclaring math accent \check on input line 40.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 40.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 40.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 40.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 40.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 46.
+(Font)              `operators' in the math version `normal' on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 46.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 40.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 46.
+(Font)              `operators' in the math version `bold' on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 46.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 46.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  TU/lmr/m/it --> TU/lmr/m/it on input line 46.
+(Font)                  TU/lmr/m/it --> TU/lmr/m/it on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  TU/lmr/bx/n --> TU/lmr/bx/n on input line 46.
+(Font)                  TU/lmr/bx/n --> TU/lmr/bx/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  TU/lmss/m/n --> TU/lmss/m/n on input line 46.
+(Font)                  TU/lmss/m/n --> TU/lmss/m/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 46.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 46.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/lmr/bx/it --> TU/lmr/bx/it on input line 46.
+(Font)                  TU/lmr/bx/it --> TU/lmr/bx/it on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/lmss/bx/n --> TU/lmss/bx/n on input line 46.
+(Font)                  TU/lmss/bx/n --> TU/lmss/bx/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/bx/n --> TU/lmtt/bx/n on input line 46.
-\c@lstlisting=\count511
+(Font)                  TU/lmtt/bx/n --> TU/lmtt/bx/n on input line 40.
+\c@lstlisting=\count376
 
-Package chemgreek Info: Activating mapping `fontspec' on line 46.
+Package chemgreek Info: Activating mapping `fontspec' on line 40.
 
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `icc_pre_1108.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'icc_pre_1108.bbl' found.
- (./icc_pre_1108.bbl)
-Package biblatex Info: Reference section=0 on input line 46.
-Package biblatex Info: Reference segment=0 on input line 46.
- (./icc_pre_1108.nav)
+ (./icc_pre.nav)
 File: nju_dii.png Graphic file (type bmp)
 <nju_dii.png>
 
-Overfull \hbox (0.85037pt too wide) in paragraph at lines 46--46
+Overfull \hbox (0.85037pt too wide) in paragraph at lines 40--40
  [][]  
  []
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+(d:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+
+(d:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 File: njuname.png Graphic file (type bmp)
 <njuname.png>
 File: njulogo.pdf Graphic file (type pdf)
@@ -1752,16 +1376,7 @@ File: njulogo.pdf Graphic file (type pdf)
 <use njulogo.pdf>
 [1
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 65.
- (d:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 65.
-
-(d:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+] (./icc_pre.toc)
 File: nju_dii.png Graphic file (type bmp)
 <nju_dii.png>
 
@@ -1776,8 +1391,18 @@ File: njulogo.pdf Graphic file (type pdf)
 [2
 
 ]
-File: Pt1.jpg Graphic file (type bmp)
-<Pt1.jpg>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 52.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 52.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 52.
+
 File: nju_dii.png Graphic file (type bmp)
 <nju_dii.png>
 
@@ -1792,89 +1417,17 @@ File: njulogo.pdf Graphic file (type pdf)
 [3
 
 ]
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00000.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00000.png>
- <a0,fr0>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00001.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00001.png>
- <a0,fr1>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00002.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00002.png>
- <a0,fr2>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00003.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00003.png>
- <a0,fr3>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00004.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00004.png>
- <a0,fr4>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00005.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00005.png>
- <a0,fr5>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00006.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00006.png>
- <a0,fr6>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00007.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00007.png>
- <a0,fr7>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00008.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00008.png>
+File: ../../1011/sample/sn2c.png Graphic file (type bmp)
+<../../1011/sample/sn2c.png>
 
-<a0,fr8>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00009.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00009.png>
- <a0,fr9>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00010.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00010.png>
- <a0,fr10>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00011.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00011.png>
- <a0,fr11>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00012.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00012.png>
- <a0,fr12> <a0,fr13> <a0,fr14> <a0,fr15>
-<a0,fr16> <a0,fr17> <a0,fr18> <a0,fr19> <a0,fr20> <a0,fr21> <a0,fr22>
-<a0,fr23> <a0,fr24>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00025.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00025.png>
- <a0,fr25>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00026.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00026.png>
- <a0,fr26>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00027.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00027.png>
- <a0,fr27>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00028.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00028.png>
- <a0,fr28>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00029.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00029.png>
- <a0,fr29>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00030.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00030.png>
+Overfull \hbox (34.27135pt too wide) in paragraph at lines 76--76
+ [] 
+ []
 
-<a0,fr30>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00031.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00031.png>
- <a0,fr31>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00032.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00032.png>
- <a0,fr32>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00033.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00033.png>
- <a0,fr33>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00034.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00034.png>
- <a0,fr34>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00035.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00035.png>
- <a0,fr35>
-File: ../../1030/Pt/pbe0/vib/Pt_tsb00036.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/vib/Pt_tsb00036.png>
- <a0,fr36>
-<a0,fr37> <a0,fr38> <a0,fr39> <a0,fr40> <a0,fr41> <a0,fr42> <a0,fr43>
-<a0,fr44> <a0,fr45> <a0,fr46> <a0,fr47>
-File: Pt_tsb_orb.png Graphic file (type bmp)
-<Pt_tsb_orb.png>
+
+Overfull \vbox (9.09448pt too high) detected at line 76
+ []
+
 File: nju_dii.png Graphic file (type bmp)
 <nju_dii.png>
 
@@ -1889,10 +1442,8 @@ File: njulogo.pdf Graphic file (type pdf)
 [4
 
 ]
-File: god1.jpg Graphic file (type bmp)
-<god1.jpg>
-File: god2.jpg Graphic file (type bmp)
-<god2.jpg>
+File: claisen.png Graphic file (type bmp)
+<claisen.png>
 File: nju_dii.png Graphic file (type bmp)
 <nju_dii.png>
 
@@ -1907,10 +1458,161 @@ File: njulogo.pdf Graphic file (type pdf)
 [5
 
 ]
-File: ../../1030/Pt/pbe0/irc/irc.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/irc/irc.png>
-File: ../../1030/Pt/pbe0/Pt.png Graphic file (type bmp)
-<../../1030/Pt/pbe0/Pt.png>
+File: ../../1011/claisen/tsb4.png Graphic file (type bmp)
+<../../1011/claisen/tsb4.png>
+File: ../../1011/claisen/tsb4_0.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_0.eps>
+ <a0,fr0>
+File: ../../1011/claisen/tsb4_1.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_1.eps>
+ <a0,fr1>
+File: ../../1011/claisen/tsb4_2.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_2.eps>
+ <a0,fr2>
+File: ../../1011/claisen/tsb4_3.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_3.eps>
+ <a0,fr3>
+File: ../../1011/claisen/tsb4_4.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_4.eps>
+ <a0,fr4>
+File: ../../1011/claisen/tsb4_5.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_5.eps>
+ <a0,fr5>
+File: ../../1011/claisen/tsb4_6.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_6.eps>
+ <a0,fr6>
+File: ../../1011/claisen/tsb4_7.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_7.eps>
+ <a0,fr7>
+File: ../../1011/claisen/tsb4_8.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_8.eps>
+
+<a0,fr8>
+File: ../../1011/claisen/tsb4_9.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_9.eps>
+ <a0,fr9>
+File: ../../1011/claisen/tsb4_10.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_10.eps>
+ <a0,fr10>
+File: ../../1011/claisen/tsb4_11.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_11.eps>
+ <a0,fr11>
+File: ../../1011/claisen/tsb4_12.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_12.eps>
+ <a0,fr12>
+File: ../../1011/claisen/tsb4_13.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_13.eps>
+ <a0,fr13>
+File: ../../1011/claisen/tsb4_14.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_14.eps>
+ <a0,fr14>
+File: ../../1011/claisen/tsb4_15.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_15.eps>
+ <a0,fr15>
+File: ../../1011/claisen/tsb4_16.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_16.eps>
+
+<a0,fr16>
+File: ../../1011/claisen/tsb4_17.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_17.eps>
+ <a0,fr17>
+File: ../../1011/claisen/tsb4_18.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_18.eps>
+ <a0,fr18>
+File: ../../1011/claisen/tsb4_19.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_19.eps>
+ <a0,fr19>
+File: ../../1011/claisen/tsb4_20.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_20.eps>
+ <a0,fr20>
+File: ../../1011/claisen/tsb4_21.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_21.eps>
+ <a0,fr21>
+File: ../../1011/claisen/tsb4_22.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_22.eps>
+ <a0,fr22>
+File: ../../1011/claisen/tsb4_23.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_23.eps>
+
+<a0,fr23>
+File: ../../1011/claisen/tsb4_24.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_24.eps>
+ <a0,fr24>
+File: ../../1011/claisen/tsb4_25.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_25.eps>
+ <a0,fr25>
+File: ../../1011/claisen/tsb4_26.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_26.eps>
+ <a0,fr26>
+File: ../../1011/claisen/tsb4_27.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_27.eps>
+ <a0,fr27>
+File: ../../1011/claisen/tsb4_28.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_28.eps>
+ <a0,fr28>
+File: ../../1011/claisen/tsb4_29.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_29.eps>
+ <a0,fr29>
+File: ../../1011/claisen/tsb4_30.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_30.eps>
+
+<a0,fr30>
+File: ../../1011/claisen/tsb4_31.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_31.eps>
+ <a0,fr31>
+File: ../../1011/claisen/tsb4_32.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_32.eps>
+ <a0,fr32>
+File: ../../1011/claisen/tsb4_33.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_33.eps>
+ <a0,fr33>
+File: ../../1011/claisen/tsb4_34.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_34.eps>
+ <a0,fr34>
+File: ../../1011/claisen/tsb4_35.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_35.eps>
+ <a0,fr35>
+File: ../../1011/claisen/tsb4_36.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_36.eps>
+ <a0,fr36>
+File: ../../1011/claisen/tsb4_37.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_37.eps>
+
+<a0,fr37>
+File: ../../1011/claisen/tsb4_38.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_38.eps>
+ <a0,fr38>
+File: ../../1011/claisen/tsb4_39.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_39.eps>
+ <a0,fr39>
+File: ../../1011/claisen/tsb4_40.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_40.eps>
+ <a0,fr40>
+File: ../../1011/claisen/tsb4_41.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_41.eps>
+ <a0,fr41>
+File: ../../1011/claisen/tsb4_42.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_42.eps>
+ <a0,fr42>
+File: ../../1011/claisen/tsb4_43.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_43.eps>
+ <a0,fr43>
+File: ../../1011/claisen/tsb4_44.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_44.eps>
+
+<a0,fr44>
+File: ../../1011/claisen/tsb4_45.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_45.eps>
+ <a0,fr45>
+File: ../../1011/claisen/tsb4_46.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_46.eps>
+ <a0,fr46>
+File: ../../1011/claisen/tsb4_47.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_47.eps>
+ <a0,fr47>
+File: ../../1011/claisen/tsb4_48.eps Graphic file (type eps)
+<../../1011/claisen/tsb4_48.eps>
+ <a0,fr48>
 File: nju_dii.png Graphic file (type bmp)
 <nju_dii.png>
 
@@ -1925,8 +1627,8 @@ File: njulogo.pdf Graphic file (type pdf)
 [6
 
 ]
-File: pop.jpg Graphic file (type bmp)
-<pop.jpg>
+File: ../../1011/claisen/ircb4_tot_ener.png Graphic file (type bmp)
+<../../1011/claisen/ircb4_tot_ener.png>
 File: nju_dii.png Graphic file (type bmp)
 <nju_dii.png>
 
@@ -1941,6 +1643,10 @@ File: njulogo.pdf Graphic file (type pdf)
 [7
 
 ]
+File: ../../1011/claisen/Rb4.png Graphic file (type bmp)
+<../../1011/claisen/Rb4.png>
+File: ../../1011/claisen/Pb4.png Graphic file (type bmp)
+<../../1011/claisen/Pb4.png>
 File: nju_dii.png Graphic file (type bmp)
 <nju_dii.png>
 
@@ -1955,33 +1661,100 @@ File: njulogo.pdf Graphic file (type pdf)
 [8
 
 ]
-\tf@nav=\write7
-\openout7 = `icc_pre_1108.nav'.
+File: ../../1011/claisen/cl.png Graphic file (type bmp)
+<../../1011/claisen/cl.png>
+File: nju_dii.png Graphic file (type bmp)
+<nju_dii.png>
 
-\tf@toc=\write8
-\openout8 = `icc_pre_1108.toc'.
+Overfull \hbox (0.85037pt too wide) has occurred while \output is active
+ [][]  
+ []
 
-\tf@snm=\write9
-\openout9 = `icc_pre_1108.snm'.
+File: njuname.png Graphic file (type bmp)
+<njuname.png>
+File: njulogo.pdf Graphic file (type pdf)
+<use njulogo.pdf>
+[9
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
- (./icc_pre_1108.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 215.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
-Package rerunfilecheck Info: File `icc_pre_1108.out' has not changed.
-(rerunfilecheck)             Checksum: 80D284442D2D200FC57E7AF1730CD67F.
-Package logreq Info: Writing requests to 'icc_pre_1108.run.xml'.
-\openout1 = `icc_pre_1108.run.xml'.
+]
+File: ../../1011/claisen/ts4.png Graphic file (type bmp)
+<../../1011/claisen/ts4.png>
+File: ../../1011/claisen/irc4_tot_ener.png Graphic file (type bmp)
+<../../1011/claisen/irc4_tot_ener.png>
+File: nju_dii.png Graphic file (type bmp)
+<nju_dii.png>
+
+Overfull \hbox (0.85037pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+File: njuname.png Graphic file (type bmp)
+<njuname.png>
+File: njulogo.pdf Graphic file (type pdf)
+<use njulogo.pdf>
+[10
+
+]
+File: nju_dii.png Graphic file (type bmp)
+<nju_dii.png>
+
+Overfull \hbox (0.85037pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+File: njuname.png Graphic file (type bmp)
+<njuname.png>
+File: njulogo.pdf Graphic file (type pdf)
+<use njulogo.pdf>
+[11
+
+]
+File: ../../1011/3/ts3.png Graphic file (type bmp)
+<../../1011/3/ts3.png>
+File: ../../1011/3/irc32_tot_ener.png Graphic file (type bmp)
+<../../1011/3/irc32_tot_ener.png>
+File: nju_dii.png Graphic file (type bmp)
+<nju_dii.png>
+
+Overfull \hbox (0.85037pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+File: njuname.png Graphic file (type bmp)
+<njuname.png>
+File: njulogo.pdf Graphic file (type pdf)
+<use njulogo.pdf>
+[12
+
+]
+\tf@nav=\write6
+\openout6 = `icc_pre.nav'.
+
+\tf@toc=\write7
+\openout7 = `icc_pre.toc'.
+
+\tf@snm=\write8
+\openout8 = `icc_pre.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
+ (./icc_pre.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 144.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package rerunfilecheck Info: File `icc_pre.out' has not changed.
+(rerunfilecheck)             Checksum: 84F644815961D8089973D8B4001E2115.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 43325 strings out of 492933
- 864104 string characters out of 6136537
- 1393027 words of memory out of 5000000
- 46678 multiletter control sequences out of 15000+600000
+ 36756 strings out of 492933
+ 739905 string characters out of 6136537
+ 949174 words of memory out of 5000000
+ 40172 multiletter control sequences out of 15000+600000
  539779 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 48i,20n,64p,811b,4927s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,20n,64p,806b,749s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on icc_pre_1108.pdf (8 pages).
+Output written on icc_pre.pdf (12 pages).
